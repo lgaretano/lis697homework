@@ -6,11 +6,11 @@ print "<h1> Challenge 99 Bottles of Beer</h1>";
  
 $bottles = 99;
 
-	while ($bottles > -1) 
+	while ($bottles > 0) 
 	{
-	echo "$bottles bottles of beer on the wall ,";
-	echo "$bottles bottles of beer,";
-	echo "take one down and pass it around,<br>";
+	echo "$bottles bottles of beer on the wall, ";
+	echo "$bottles bottles of beer! <br>";
+	echo "take one down and pass it around, ";
 	$bottles--; 
 	echo "$bottles of beer on the wall!<br>";
 	}
@@ -22,14 +22,14 @@ print "<h1> Challenge 99 Bottles of Beer</h1>";
  
 $inputNum = 4;
 
-	while ($inputNum > -1) 
+	while ($inputNum > 0) 
 	{
-	echo "$inputNum bottles of beer on the wall ,";
-	echo "$inputNum bottles of beer,";
-	echo "take one down and pass it around...<br>";
+	echo "$inputNum bottles of beer on the wall, ";
+	echo "$inputNum bottles of beer! <br>";
+	echo "take one down and pass it around, ";
 	$inputNum--; 
+	echo "$inputNum of beer on the wall!<br>";
 	}
-	
 	
 	
 		
